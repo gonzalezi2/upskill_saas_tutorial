@@ -5,7 +5,7 @@ $(document).on('turbolinks:load', function(){
   
   // Set variables for selected HTML elements
   var theForm = $('#pro_form');
-  var submitBtn = $('#form-submit-btn');
+  var submitBtn = $('#form-signup-btn');
   
   //Set Stripe public key.
   Stripe.setPublishableKey( $('meta[name="stripe-key"]').attr('content') );
