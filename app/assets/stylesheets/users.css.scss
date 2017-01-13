@@ -34,3 +34,17 @@
   background-color: #5bc0de;
   border-color: #46b8da;
 }
+
+// These are for our user index page styles
+.user-index-avatar {
+  @extend .avatar-show-img;
+  border: 2px solid #337ab7;
+  &:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
+
+.well.white-bg {
+  background: white;
+}
