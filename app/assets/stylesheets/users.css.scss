@@ -2,7 +2,9 @@
   width: 128px;
   height: 128px;
   border-radius:50%;
-  border: 2px solid #000;
+  border: 1px solid #d4d4d4;
+  padding: 3px;
+  background: #fff;
   box-sizing: border-box;
 }
 
@@ -38,7 +40,6 @@
 // These are for our user index page styles
 .user-index-avatar {
   @extend .avatar-show-img;
-  border: 2px solid #337ab7;
   &:hover {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
